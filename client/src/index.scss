@@ -1,0 +1,9 @@
+@charset "utf-8";
+// Set your brand colors
+$purple: #7200ff;
+// Update Bulma's global variables
+$primary: $purple;
+// Update some of Bulma's component variables
+$box-padding: 0.75rem;
+// Import all bulma component / element
+@import "../node_modules/bulma/bulma.sass";
